@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SABI — Omakase català-japonès a Girona</title>
-  <meta name="description" content="SABI és un restaurant omakase català-japonès de petit format al Barri Vell de Girona. 8 comensals, cuina vista i menú degustació de temporada.">
-  <meta name="theme-color" content="#11100d">
+  <title>SABI - Omakase català-japonès a Girona</title>
+  <meta name="description" content="SABI és un omakase català-japonès de petit format al Barri Vell de Girona. 8 comensals, barra gastronòmica, cuina vista i menú degustació de temporada.">
+  <meta name="theme-color" content="#15110d">
 
-  <meta property="og:title" content="SABI — Omakase català-japonès a Girona">
-  <meta property="og:description" content="Una experiència gastronòmica íntima de 8 places, entre producte català, tècnica japonesa i cuina vista.">
+  <meta property="og:title" content="SABI - Omakase català-japonès a Girona">
+  <meta property="og:description" content="Una barra gastronòmica íntima de 8 places al Barri Vell de Girona, entre producte català, tècnica japonesa i temporalitat.">
   <meta property="og:type" content="website">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,9 +27,9 @@
       <span></span><span></span>
     </button>
 
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Navegació principal">
       <a href="#concepte">Concepte</a>
-      <a href="#experiencia">Experiència</a>
+      <a href="#filosofia">Filosofia</a>
       <a href="#menu">Menú</a>
       <a href="#reserves">Reserves</a>
       <a href="#contacte">Contacte</a>
@@ -37,130 +37,195 @@
   </header>
 
   <main id="inici">
-    <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">Omakase català-japonès · Girona</p>
-        <h1>Una barra íntima on el producte parla en silenci.</h1>
-        <p class="hero-text">
-          SABI és una experiència gastronòmica de petit format: 8 comensals, cuina vista
-          i un menú degustació que connecta el producte local amb la precisió japonesa.
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Girona · Barri Vell · 8 places</p>
+        <h1>SABI</h1>
+        <p class="hero-lede">
+          Omakase català-japonès en una barra íntima, amb cuina vista, producte de temporada
+          i el gest precís d'un servei pensat per escoltar el moment.
         </p>
         <div class="hero-actions">
           <a class="btn primary" href="#reserves">Sol·licitar reserva</a>
-          <a class="btn secondary" href="#menu">Veure proposta</a>
+          <a class="btn quiet" href="#menu">Veure la seqüència</a>
         </div>
       </div>
 
-      <div class="hero-card" aria-label="Informació clau">
-        <div>
-          <span>Places</span>
-          <strong>8</strong>
+      <div class="hero-visual" aria-label="Espai visual per a la barra de SABI">
+        <div class="asset-frame asset-barra" data-asset="assets/hero-barra.jpg">
+          <span>Barra intima</span>
         </div>
+      </div>
+
+      <aside class="hero-facts" aria-label="Informació essencial">
         <div>
           <span>Format</span>
           <strong>Omakase</strong>
         </div>
         <div>
+          <span>Comensals</span>
+          <strong>8</strong>
+        </div>
+        <div>
           <span>Menú base</span>
           <strong>85 €</strong>
         </div>
-      </div>
+      </aside>
     </section>
 
-    <section id="concepte" class="section two-columns">
+    <section id="concepte" class="section section-shell intro-grid">
       <div>
         <p class="eyebrow">Concepte</p>
-        <h2>Cuina catalana amb mirada japonesa.</h2>
+        <h2>Producte català, tècnica japonesa i una taula molt propera.</h2>
       </div>
-      <div class="section-text">
+      <div class="rich-text">
         <p>
-          SABI neix de la idea de reduir el restaurant a l’essencial: producte, tècnica,
-          temps i proximitat. El menú canvia segons temporada i disponibilitat, amb una
-          especial atenció al peix, els brous, les verdures de mercat i les elaboracions
-          amb umami net.
+          SABI redueix el restaurant a allò que importa: matèria, temps, temperatura,
+          ganivet, brasa i silenci. La proposta canvia amb el mercat i amb el calendari,
+          sense perseguir l'abundància sinó la precisió.
         </p>
         <p>
-          La inspiració japonesa no busca disfressar el producte local, sinó afinar-lo:
-          kombu, shoyu, miso, dashi, curacions curtes, brasa i fermentacions aplicades
-          amb criteri gastronòmic.
+          El receptari parteix del territori: peix de llotja, verdures de pagès, arrossos,
+          bolets, cítrics, herbes i fons de cuina catalana. La mirada japonesa hi entra
+          per afinar el gust: dashi, kombu, miso, shoyu, curacions breus, fermentacions i
+          coccions netes.
         </p>
       </div>
     </section>
 
-    <section id="experiencia" class="section">
+    <section class="image-band section-shell" aria-label="Materials i textures de SABI">
+      <div class="asset-frame asset-ceramica" data-asset="assets/ceramica-artesanal.jpg">
+        <span>Ceràmica artesanal</span>
+      </div>
+      <div class="asset-frame asset-fusta" data-asset="assets/fusta-fosca.jpg">
+        <span>Fusta fosca</span>
+      </div>
+      <div class="asset-frame asset-producte" data-asset="assets/producte-temporada.jpg">
+        <span>Producte de temporada</span>
+      </div>
+    </section>
+
+    <section id="filosofia" class="section section-shell philosophy">
+      <div class="philosophy-copy">
+        <p class="eyebrow">Filosofia wabi-sabi</p>
+        <h2>La bellesa discreta del que no es repeteix.</h2>
+        <p>
+          A SABI, wabi-sabi no és una decoració ni un discurs: és una manera de cuinar.
+          Acceptar una vora irregular, una flama que deixa rastre, una peça de ceràmica
+          feta a mà o una verdura que només dura unes setmanes.
+        </p>
+        <p>
+          La temporalitat marca el menú. La matèria guia el plat. El silenci deixa espai
+          al producte. Cada servei és proper, contingut i precís, amb la imperfecció justa
+          que recorda que la cuina està viva.
+        </p>
+      </div>
+
+      <div class="material-notes" aria-label="Materials">
+        <article>
+          <span>01</span>
+          <h3>Matèria</h3>
+          <p>Pedra, paper, fusta i ceràmica com a fons honest per al menjar.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Temporalitat</h3>
+          <p>Un menú que canvia quan canvia el mercat, no quan ho demana una carta.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Gest</h3>
+          <p>Preparacions curtes, servei directe i una cuina visible, sense artifici.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section section-shell experience">
       <p class="eyebrow">Experiència</p>
-      <h2>Un servei proper, directe i transparent.</h2>
+      <h2>Una nit a la barra, sense distància entre cuina i taula.</h2>
 
-      <div class="cards">
-        <article class="card">
+      <div class="experience-grid">
+        <article>
           <h3>Barra gastronòmica</h3>
-          <p>El comensal observa la preparació i entén el ritme del menú des de primera línia.</p>
+          <p>El comensal veu el tall, el foc, el brou i l'emplatat des de primera línia.</p>
         </article>
-        <article class="card">
-          <h3>Menú de temporada</h3>
-          <p>Una proposta curta, precisa i variable, construïda al voltant del millor producte disponible.</p>
+        <article>
+          <h3>Cuina vista</h3>
+          <p>Un servei pausat, transparent i proper, amb explicacions breus quan el plat les demana.</p>
         </article>
-        <article class="card">
+        <article>
           <h3>Petit format</h3>
-          <p>Només 8 places per mantenir control, qualitat, proximitat i viabilitat operativa.</p>
+          <p>Vuit places per mantenir ritme, precisió, conversa i una relació directa amb cada persona.</p>
         </article>
       </div>
     </section>
 
-    <section id="menu" class="section menu-section">
-      <div>
-        <p class="eyebrow">Menú</p>
-        <h2>Degustació SABI</h2>
-        <p class="section-text">
-          El menú és orientatiu i evoluciona amb el mercat, el calendari i la disponibilitat del producte.
+    <section id="menu" class="section section-shell menu-section">
+      <div class="menu-intro">
+        <p class="eyebrow">Menú degustació</p>
+        <h2>Una seqüència de temporada, no una carta fixa.</h2>
+        <p>
+          La proposta s'escriu cada setmana a partir del producte disponible. Aquesta seqüència
+          és orientativa i pot variar segons llotja, mercat, maduracions i preparacions del dia.
         </p>
       </div>
 
-      <div class="menu-list">
+      <div class="menu-sequence" aria-label="Seqüència orientativa del menú">
         <div class="menu-row">
-          <span>Dashi de temporada</span>
-          <small>brou clar, fons marí o vegetal</small>
+          <span>Benvinguda calenta</span>
+          <small>Brou clar, dashi català o infusió de temporada</small>
         </div>
         <div class="menu-row">
-          <span>Producte cru o curat</span>
-          <small>kombujime, ponzu, cítrics locals</small>
+          <span>Cru, curat o marinat</span>
+          <small>Peix de llotja, kombu, ponzu, cítric local</small>
         </div>
         <div class="menu-row">
-          <span>Verdura i brasa</span>
-          <small>miso, fruits secs, herbes</small>
+          <span>Verdures, brasa i umami</span>
+          <small>Miso, fruits secs, herbes amargues, oli verd</small>
+        </div>
+        <div class="menu-row">
+          <span>Arròs, vapor o textura</span>
+          <small>Un pas central, sobri i profund</small>
         </div>
         <div class="menu-row">
           <span>Peix principal</span>
-          <small>tècnica japonesa i memòria catalana</small>
+          <small>Cocció curta, salsa neta, memòria catalana</small>
         </div>
         <div class="menu-row">
-          <span>Carn o mar i muntanya</span>
-          <small>shoyu, vi ranci, reduccions netes</small>
+          <span>Mar i muntanya o carn</span>
+          <small>Shoyu, vi ranci, fons reduït, brasa</small>
         </div>
         <div class="menu-row">
-          <span>Prepostre i postres</span>
-          <small>fruita de temporada, làctic, arròs</small>
+          <span>Final lleuger</span>
+          <small>Fruita, lacti, arròs, te o ferment</small>
         </div>
       </div>
 
-      <div class="price-box">
+      <aside class="price-box">
         <span>Preu orientatiu</span>
         <strong>85 €</strong>
-        <small>Maridatge opcional disponible.</small>
-      </div>
+        <small>Maridatge opcional. La durada i el nombre de passos poden variar segons temporada.</small>
+      </aside>
     </section>
 
-    <section id="reserves" class="section reservation">
-      <div>
+    <section id="reserves" class="section section-shell reservation">
+      <div class="reservation-copy">
         <p class="eyebrow">Reserves</p>
-        <h2>Una experiència limitada a 8 comensals.</h2>
+        <h2>Places limitades i confirmació personal.</h2>
         <p>
-          Les reserves s’obren per dies concrets i poden requerir targeta de garantia.
-          En cas d’al·lèrgies o intoleràncies, cal comunicar-ho abans de confirmar la reserva.
+          Les reserves són sol·licituds fins que l'equip les confirma. El petit format ens
+          ajuda a cuidar el servei, però també fa important avisar amb temps de qualsevol canvi.
         </p>
+
+        <ul class="reservation-notes">
+          <li>8 places per servei. Recomanem reservar amb antelació.</li>
+          <li>Al·lèrgies i intoleràncies: comunica-les abans de confirmar.</li>
+          <li>Puntualitat: el menú comença per a tota la barra a l'hora acordada.</li>
+          <li>Cancel·lació orientativa: canvis o anul·lacions amb 48 h d'antelació.</li>
+        </ul>
       </div>
 
-      <form class="reservation-form" name="reserva" method="post" data-netlify="true">
+      <form class="reservation-form" name="reserva" method="post">
         <label>
           Nom
           <input type="text" name="nom" placeholder="El teu nom" required>
@@ -185,18 +250,18 @@
           </select>
         </label>
         <label class="full">
-          Al·lèrgies o comentaris
+          Al·lèrgies, intoleràncies o comentaris
           <textarea name="comentaris" rows="4" placeholder="Explica'ns qualsevol informació important"></textarea>
         </label>
         <button class="btn primary full" type="submit">Enviar sol·licitud</button>
-        <p class="form-note">Aquest formulari és una maqueta. Per funcionar a Cloudflare caldrà connectar-lo a un servei extern o a Cloudflare Workers.</p>
+        <p class="form-note">Formulari sense pagament ni backend. Preparat per connectar-lo posteriorment a Cloudflare Workers, Forms o un servei extern.</p>
       </form>
     </section>
 
-    <section id="contacte" class="section contact">
+    <section id="contacte" class="section section-shell contact">
       <p class="eyebrow">Contacte</p>
       <h2>SABI · Girona</h2>
-      <p>Barri Vell, Girona · Obert de dimecres a diumenge en servei de nit.</p>
+      <p>Barri Vell de Girona · Servei de nit · Obertures segons calendari.</p>
       <div class="contact-links">
         <a href="mailto:reserves@sabi.cat">reserves@sabi.cat</a>
         <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
