@@ -447,13 +447,24 @@ p {
 
 .menu-section {
   display: grid;
-  grid-template-columns: minmax(260px, 0.82fr) minmax(0, 1.1fr) minmax(190px, 0.42fr);
-  gap: clamp(28px, 5vw, 58px);
+  grid-template-columns: minmax(300px, 380px) minmax(360px, 1fr) minmax(180px, 220px);
+  gap: clamp(48px, 6vw, 76px);
   align-items: start;
 }
 
+.menu-intro {
+  min-width: 0;
+}
+
+.menu-intro h2 {
+  max-width: 9ch;
+  font-size: clamp(3.6rem, 6vw, 5.25rem);
+  line-height: 1.03;
+  overflow-wrap: normal;
+}
+
 .menu-intro p {
-  max-width: 520px;
+  max-width: 36ch;
 }
 
 .menu-sequence {
@@ -693,6 +704,22 @@ textarea:focus {
 
   .nav-toggle {
     display: block;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1180px) {
+  .menu-section {
+    grid-template-columns: minmax(260px, 320px) minmax(360px, 1fr);
+  }
+
+  .menu-section .price-box {
+    grid-column: 1 / -1;
+    width: min(100%, 360px);
+    position: static;
+  }
+
+  .menu-intro h2 {
+    font-size: clamp(3rem, 5.2vw, 4.4rem);
   }
 }
 
