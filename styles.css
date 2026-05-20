@@ -260,6 +260,7 @@ p {
   z-index: -2;
   background:
     linear-gradient(145deg, rgba(21, 17, 13, 0.1), rgba(21, 17, 13, 0.86)),
+    var(--asset-image, none),
     var(--asset-texture);
   background-size: cover;
   background-position: center;
@@ -286,12 +287,14 @@ p {
 
 .asset-barra {
   min-height: min(68svh, 620px);
+  --asset-image: url("assets/hero-barra.jpg");
   --asset-texture:
     radial-gradient(circle at 42% 18%, rgba(238, 229, 213, 0.24), transparent 7rem),
     linear-gradient(90deg, #2c2117, #0f0c0a 52%, #5b3a24);
 }
 
 .asset-ceramica {
+  --asset-image: url("assets/ceramica-artesanal.jpg");
   --asset-texture:
     radial-gradient(circle at 40% 50%, rgba(238, 229, 213, 0.84), transparent 5rem),
     radial-gradient(circle at 58% 47%, rgba(92, 73, 57, 0.82), transparent 7rem),
@@ -299,12 +302,14 @@ p {
 }
 
 .asset-fusta {
+  --asset-image: url("assets/fusta-fosca.jpg");
   --asset-texture:
     repeating-linear-gradient(90deg, rgba(238, 229, 213, 0.055) 0 1px, transparent 1px 26px),
     linear-gradient(110deg, #140f0b, #4a2d1d 48%, #211610);
 }
 
 .asset-producte {
+  --asset-image: url("assets/producte-temporada.jpg");
   --asset-texture:
     radial-gradient(circle at 36% 48%, rgba(156, 169, 110, 0.78), transparent 5rem),
     radial-gradient(circle at 62% 40%, rgba(190, 129, 83, 0.6), transparent 6rem),
